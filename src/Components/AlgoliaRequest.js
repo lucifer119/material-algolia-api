@@ -45,7 +45,7 @@ export const AlgoliaRequest = () => {
                 fetchRequest(pageCount);
                 pageCount++;
                 }
-            }, 1000);
+            }, 10000);
   }, []);
   
     data?.map((obj) => {
